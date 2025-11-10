@@ -1,15 +1,15 @@
 {
   "name": "cheat",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple Express app that auto-downloads a ZIP file",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Atharva Dhake",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0"
   }
